@@ -1,0 +1,10 @@
+print ("Login Page")
+username = input("Username: ")
+password = input("Password: ")
+if username == "kf11" and password == "thomasthetrain":
+  print("Welcome Kelly F!")
+elif username == "sf88" and password == "henrythetrain":
+  print("Welcome Scarlett F!")
+elif username == "tf99" and password == "percythetrain":
+  print("Welcome Theia F!")
+else: print("Incorrect username or password, please try again.")
