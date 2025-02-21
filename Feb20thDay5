@@ -1,0 +1,17 @@
+print("Harry Potter Character Guesser")
+print("------------------------------")
+print("")
+print("Answer the following questions with a 'yes' or 'no'")
+HarryPotter = input("Do you have a scar on your forehead? ")
+if HarryPotter == "yes":
+  print ("Harry Pottah, Nice to meet you!")
+Hermione = input("Are you a girl with long ginger curly hair? ")
+if Hermione == "yes": 
+  print ("Hermione Granger, Nice to meet you!")
+Ron = input("Are you a boy with ginger hair?")
+if Ron == "yes":
+  print ("Ron Weasley, Nice to meet you!")
+Dobby = input("Are you a house elf?")
+if Dobby == "yes":
+  print ("I KNEW IT!!!")
+else: print ("Don't lie to me, I know you are Dobby!")
