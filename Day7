@@ -1,0 +1,15 @@
+FavGymnast = input("Are you a real gymnastics fan? Who is your favorite gymnast?")
+if FavGymnast == "Nadia Comaneci":
+  print("True Fan")
+elif FavGymnast == "Simone Biles":
+  print("Seriously? I know she is amazing but like everyone knows her.")
+elif FavGymnast == "Ellie Black":
+  print("Yessssss. My fellow Canadian Gymnast")
+elif FavGymnast == "Katelyn Ohashi":
+  print("Seen her perfect 10 on floor? She's my idol. I love her.")
+elif FavGymnast == "Rebeca Andrade":
+  print("Loved her winning routines at the last summer olympics")
+elif FavGymnast == "Olga Korbut":
+  print("Her dead loop is scary.")
+else:
+  print("Whatever...")
