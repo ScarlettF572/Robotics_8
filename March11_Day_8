@@ -1,0 +1,14 @@
+name = input("What is your name? ")
+if name == "Mom" or name == "mom":
+    day = input ("How was your day?")
+    if day == "good" or day == "Good":
+     print("I'm glad to hear that! Love you <3!")
+    if day == "bad" or day == "Bad":
+      print("I'm sorry to hear that. I hope your day gets better!")
+    elif name == "Dad" or name == "dad":
+      day = input ("How was your day?")
+    elif day == "good" or day == "Good":
+      print("I'm glad to hear that! Love you <3!")
+    elif day == "bad" or day == "Bad":
+      print("I'm sorry to hear that. I hope your day gets better!")
+Today I learned how to use "or" statements
